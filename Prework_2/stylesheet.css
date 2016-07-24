@@ -3,6 +3,7 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
   color:black;
+  font-family: 'Lobster', cursive;
 }
 .navigation{
   margin-left: 70%;
