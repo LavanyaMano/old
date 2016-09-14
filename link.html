@@ -1,35 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Webpage</title>
-<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-</head>
-<body>
-<div class="navigation">
-<table >
-<tr>
-	<td class="button"><a href="index.html">Home</a></td>
-	<td class="button"><a href="about.html">About me</a></td>
-	<td class="button"><a href="link.html">Links</a></td>
-</tr>
-</table>	
-</div>
+---
+layout: page
+title: Link
+---
 
-<div class="align">
-<table>
-<tr>
-<td>
+
+<div class="container">
+
 <h1>Connect with me</h1>
-</td></tr>
-</table>
+
+<div class="container">
+		<h3>Contact Us</h3>
+		<form action="https://formspree.io/lavanyamkanna@gmail.com" method="POST">
+		 <div class="form-group">
+		    <label for="fullName">Full Name</label>
+		    <input type="text" name="name" class="form-control" id="Full Name" placeholder="Full Name">
+		  </div>
+		  <div class="form-group">
+		    <label for="phone">Phone Number</label>
+		    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Comment</label>
+		      <textarea class="form-control" rows="3" name="Comment"> </textarea>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Submit</button>
+		</form>
+	<br>
+		</div>
+<h2>My links are :</h2>
+<a href="https://www.linkedin.com/in/lavanya-manoharan-269a7b17?trk=hp-identity-photo"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+</a>
+
+<a href="https://github.com/LavanyaMano/Lavanya"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+<a href="http://stackoverflow.com/users/6580467/lavanya-mano"><i class="fa fa-stack-overflow" aria-hidden="true"></i>
+</a>
+
 </div>
-<div id="link">
-<a href="https://www.linkedin.com/in/lavanya-manoharan-269a7b17?trk=hp-identity-photo"><img src="https://cdn.searchenginejournal.com/wp-content/uploads/2015/01/LinkedIn-Logo.jpeg"></a>
-
-<a href="https://github.com/LavanyaMano/Lavanya"><img src="https://kanbanize.com/blog/wp-content/uploads/2014/11/GitHub.jpg"></a>
-
-<a href="http://stackoverflow.com/users/6580467/lavanya-mano"><img src="http://www.socialtalent.co/wp-content/uploads/blog-content/so-logo.png"></a>
-</div>
-  
-
-</body>
