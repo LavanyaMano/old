@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Flask and Django
+title: Four weeks at Bootcamp
 ---
 
 It has been four weeks since the class started.
