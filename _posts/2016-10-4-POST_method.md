@@ -1,8 +1,13 @@
 ---
 layout: page
 title: POST method in django
+post_description: In web, we use GET, POST, DELETE request methods.Get method to get a data/url on request ...
 ---
-<h4>POST Method</h4>
+
+<h2>
+    POST method in django
+</h2>
+<hr>
 
 In web, we use GET, POST, DELETE request methods.
 Get method to get a data/url on request, Post is to add data, DELETE is to remove the data added.

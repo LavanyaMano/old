@@ -2,13 +2,55 @@
 layout: page
 title: stylesheet
 ---
-.fa{
-    color: blue;
-    font-size: 50px;
+body{
+
+}
+.nav-item{
+    font-size: 20px;
+    color: #df691a;
 }
 
-.center{
-    margin-top: 70px;
-    margin-left: 300px;
-    margin-right: 300px;
+.container{
+    margin-left:20%;
+    padding-top: 70px;
+    width:60%;
+    height: 100%;
+}
+
+h3{
+    color: #df691a;
+}
+h2{
+    color: #df691a;
+    text-align: center;
+}
+
+hr.style13 {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+form{
+    border-radius: 6px;
+    box-shadow: 0px 2px 26px 3px rgba(117,138,168,0.51);
+    margin:5px;
+    padding: 10px;
+}
+.row{
+    height: 100px;
+    padding:5%;
+}
+.link{
+    height: 100px;
+    border-right: double 2px grey;
+}
+.btn-primary{
+    border-radius: 6px;
+}
+.form-control{
+    border-radius: 6px;
+}
+.icons{
+    padding:15px;
+    font-size: 50px;
 }

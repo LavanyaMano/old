@@ -1,8 +1,13 @@
 ---
 layout: page
 title: Fifth week in Bootcamp
+post_description: This is Django week. Last We had pair programing in word counter app. Then  ...
 ---
 
+<h2>
+    Fifth week in Bootcamp
+</h2>
+<hr>
 This is Django week.
 
 Last We had pair programing in word counter app. Then additions were made to it by making calculator app, timestable and address book app. The whole project was done in flask framework.

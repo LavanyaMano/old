@@ -1,9 +1,13 @@
 ---
 layout: page
 title: Property decorators in python
+post_description: I first came to know about property decorator when Matt used it in pizza order app. He used the ...
 ---
 
-<h4>Property decorators</h4>
+<h2>
+    Property decorators in python
+</h2>
+<hr>
 
 I first came to know about property decorator when Matt used it in pizza order app. He used the @class-method to add the existing list of pizzas into the menu list of Pizza class. Then I did not have much of an idea about decorators.  Last week Friday, in morning-warmup session it was mentioned to write about concepts so far learned, which we feel difficult. The point at which we could not write would be a roadblock in understanding. 
 
