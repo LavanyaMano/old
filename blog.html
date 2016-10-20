@@ -3,13 +3,14 @@ layout: page
 title: Blog
 ---
 
-
-{% for post in site.posts %}
-<div class="card card-block">
-    <h3 class="card-title">{{ post.title }}</h3>
-    <p><small>{{ post.date | date: "%b %d, %Y" }}</small></p>
-    <p class="card-text">{{post.post_description}}</p>
-    <a href="{{ post.url }}" class="card-link">Click here to read</a>
-    <hr class="style13">
+<div class="container">
+    {% for post in site.posts %}
+    <div class="card card-block">
+        <h3 class="card-title">{{ post.title }}</h3>
+        <p><small>{{ post.date | date: "%b %d, %Y" }}</small></p>
+        <p class="card-text">{{post.post_description}}</p>
+        <a href="{{ post.url }}" class="card-link">Click here to read</a>
+        <hr class="style13">
+    </div>
+    {% endfor %} 
 </div>
-{% endfor %} 
