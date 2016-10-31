@@ -3,7 +3,7 @@ layout: page
 title: stylesheet
 ---
 body{
-
+ padding-top: 70px;
 }
 .nav-item{
     font-size: 20px;
