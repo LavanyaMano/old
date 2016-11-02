@@ -4,7 +4,7 @@ title: Property decorators in python
 post_description: I first came to know about property decorator when Matt used it in pizza order app. He used the ...
 ---
 
-<div class="container">
+
 <h2>
     Property decorators in python
 </h2>
@@ -17,4 +17,3 @@ In that it is explained about the @decorator. In python we can able to pass a fu
 
 As list comprehension is to loops, if statements, @ decorators is to passing function inside a function, I feel that way. The decorators still have vast content in them, what I learnt is just for passing the arguments. Still a lot to learn in it. Now I am able to appreciate its use. Now when I see @login-required in django apps, I could imagine the actions it performs in the background. 
 
-</div>
