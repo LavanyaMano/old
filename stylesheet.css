@@ -15,12 +15,20 @@ body{
 }
 .container{
     margin-left:20%;
-   
+    padding-top: 70px;
     width:60%;
     height: 100%;
 }
 #name{
     color: #df691a;
+}
+#aboutme-pic{
+    height: 200px;
+    margin-top: 100px;
+    margin-left: -230px;
+}
+#aboutme{
+    margin-top: -250px;
 }
 h3{
     color: #df691a;
@@ -49,6 +57,9 @@ form{
     height: 100px;
     border-right: double 2px grey;
 }
+#link{
+    color: #df691a; 
+}
 .btn-primary{
     border-radius: 6px;
 }
@@ -58,4 +69,7 @@ form{
 .icons{
     padding:15px;
     font-size: 50px;
+}
+.list-group{
+    text-align: center;
 }
