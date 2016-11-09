@@ -3,20 +3,25 @@ layout: page
 title: stylesheet
 ---
 body{
- padding-top: 70px;
+ padding-top: 50px;
 }
-.nav-item{
+.navbar-brand{
     font-size: 20px;
     color: #df691a;
 }
-
+.navbar-nav{
+    font-size: 15px;
+    color: #df691a;
+}
 .container{
     margin-left:20%;
-    padding-top: 70px;
+   
     width:60%;
     height: 100%;
 }
-
+#name{
+    color: #df691a;
+}
 h3{
     color: #df691a;
 }
