@@ -49,6 +49,16 @@ form{
     margin:5px;
     padding: 10px;
 }
+.border{
+    height: 500px;
+    text-align: justify;
+    padding: 20px;
+    border-style: double;
+    border-color: #8c8b8b ;
+}
+.div-center{
+    text-align: center;
+}
 .row{
     height: 100px;
     padding:5%;
